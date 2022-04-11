@@ -161,7 +161,7 @@ const Cal = () => {
     </div>
 </div>
       
-        <div class="absolute bottom-2 text-white opacity-50 text-sm">
+        <div class="absolute ml-20 bottom-6 text-white opacity-50 text-sm">
             <a href="https://sury.netlify.app" rel="noopener noreferrer" target="_blank">Website Coded by Sury</a>
         </div>
   
