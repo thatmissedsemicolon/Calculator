@@ -24,10 +24,10 @@ const Cal = () => {
 
   return (
     <div class="mx-auto overflow-hidden mt-10 shadow-lg mb-2 bg-[#000000] shadow-lg border rounded-lg lg:w-2/6 md:w-3/6 sm:w-4/6">
-    <div class="">
-      <div class="p-5 text-white text-center text-3xl bg-[#04387A]-900">Calculator</div>
-      <div class="pt-16 p-5 pb-0 text-white text-right text-3xl bg-[#000000]">{cal || 0}</div>
-      <div class="p-5 text-white text-right text-3xl bg-[#000000]"><span class="text-orange-500">{result || ''}</span></div>
+        <div class="">
+            <div class="p-5 text-white text-center text-3xl bg-[#04387A]-900">Calculator</div>
+                <div class="pt-16 p-5 pb-0 text-white text-right text-3xl bg-[#000000]">{cal || 0}</div>
+                    <div class="p-5 text-white text-right text-3xl bg-[#000000]"><span class="text-orange-500">{result || ''}</span></div>
       
       
  <div class="flex items-stretch bg-[#000000] h-24">
@@ -161,8 +161,11 @@ const Cal = () => {
     </div>
 </div>
       
-      
-  </div>
+        <div class="absolute bottom-2 text-white opacity-50 text-sm">
+            <a href="https://sury.netlify.app" rel="noopener noreferrer" target="_blank">Website Coded by Sury</a>
+        </div>
+  
+    </div>
 </div>
   )
 }
