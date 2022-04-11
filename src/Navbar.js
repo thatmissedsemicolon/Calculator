@@ -1,5 +1,5 @@
 import React from 'react';
-import Cal from './Cal';
+import Cal from './Calculator';
 import Image from './images/calculator.png';
 
 export const Navbar = ({ setDarkTheme, darkTheme }) => (

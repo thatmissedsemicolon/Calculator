@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import './calculator.css'
 
 const Cal = () => {
     const [cal, setCal] = useState("");
@@ -160,14 +161,14 @@ const Cal = () => {
         </button>
     </div>
 </div>
-      
-        <div class="absolute ml-60 bottom-6 text-white opacity-50 text-sm">
-            <a href="https://sury.netlify.app" rel="noopener noreferrer" target="_blank">Website Coded by Sury</a>
+    <div className='link'>
+        <div class="text-white text-sm">
+          <a href="https://sury.netlify.app" rel="noopener noreferrer" target="_blank">Website is Coded by Sury</a>
         </div>
-  
     </div>
+  </div>
 </div>
   )
 }
 
-export default Cal
+export default Cal;
