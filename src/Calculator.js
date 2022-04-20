@@ -19,7 +19,7 @@ const Cal = () => {
         setResult(eval(cal).toString());
         }
         catch{
-            setResult("Erorr")
+            setResult("Error")
         }
     }
 
