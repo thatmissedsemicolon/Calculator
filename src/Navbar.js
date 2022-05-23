@@ -1,6 +1,6 @@
 import React from 'react';
 import Cal from './Calculator';
-import Image from './images/calculator.png';
+import Image from './assets/calculator.png';
 
 export const Navbar = ({ setDarkTheme, darkTheme }) => (
   <div className="p-5 pb-0 flex flex-wrap sm:justify-between justify-center items-center border-b dark:border-gray-700 border-gray-200 ">
